@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contacts</title>
+        <link rel="stylesheet" href="apil_portfolio.css">
+    </head>
+    <body>
+        
+        <nav>
+            <ul>
+                <li><a href="apil_portfolio.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="credentials.html">Credentials</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section id="contact">
+            <h1>Contact Me</h1>
+
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" name="name" id="name" placeholder="Last Name, First Name"><br><br>
+                <label for="user-email">Email:</label><br>
+                <input type="email" name="user-email" id="user-email" placeholder="youremail@domain.com"><br><br>
+                <label for="contact-number">Contact</label><br>
+                <input type="tel" name="contact-number" id="contact-number" placeholder="(+xx) xxx-xxxx-xxx"><br><br>
+                <label for="message">Message:</label><br>
+                <textarea name="message" id="message" rows="10" cols="25" placeholder="Input your message here..."></textarea><br><br>
+
+                <fieldset>
+                    <legend>
+                        What can I do for you?
+                    </legend>
+
+                    <input type="checkbox" name="inquiries" id="inquiry" value="Inquiry">
+                    <label for="inquiry">Inquiry</label><br>
+
+                    <input type="checkbox" name="inquiries" id="appointment" value="Appointment">
+                    <label for="appointment">For Appointment</label><br>
+
+                    <input type="checkbox" name="inquiries" id="cussup" value="Cussup">
+                    <label for="cussup">Customer Support</label><br>
+
+                    <input type="checkbox" name="inquiries" id="feedback" value="Feedback">
+                    <label for="feedback">Feedback</label><br>
+                </fieldset><br><br>
+
+                <fieldset>
+                    <legend>
+                        Please select the needed services:
+                    </legend>
+
+                    <input type="radio" name="services" id="webdev" value="Webdev">
+                    <label for="webdev">Web Developer</label><br>
+
+                    <input type="radio" name="services" id="webdes" value="Webdes">
+                    <label for="webdes">Web Design</label><br>
+
+                    <input type="radio" name="services" id="infograp" value="Infograp">
+                    <label for="infograp">Info Graphics</label><br>
+                </fieldset><br><br>
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+    </body>
+</html>
